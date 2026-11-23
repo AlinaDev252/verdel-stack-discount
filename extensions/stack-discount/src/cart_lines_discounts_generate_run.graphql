@@ -1,0 +1,31 @@
+query CartInput {
+  cart {
+    buyerIdentity {
+      purchasingCompany {
+        company {
+          id
+        }
+      }
+    }
+    lines {
+      id
+      sellingPlanAllocation {
+        sellingPlan {
+          id
+        }
+      }
+      merchandise {
+        __typename
+        ... on ProductVariant {
+          product {
+            id
+            hasAnyTag(tags: ["formula"])
+          }
+        }
+      }
+    }
+  }
+  discount {
+    discountClasses
+  }
+}

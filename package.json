@@ -1,0 +1,22 @@
+{
+  "name": "verdel-stack-discount",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "extensions/*"
+  ],
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy",
+    "test": "npm test --workspace extensions/stack-discount -- --run"
+  },
+  "author": "alinagoiea",
+  "private": true,
+  "devDependencies": {
+    "@shopify/cli": "^5.0.2"
+  }
+}
