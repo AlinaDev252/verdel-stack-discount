@@ -29,7 +29,7 @@ export function cartLinesDiscountsGenerateRun(input) {
         productDiscountsAdd: {
           candidates: [
             {
-              message: 'Stack discount',
+              message: 'Bundle discount',
               targets: formulaLines.map((line) => ({ cartLine: { id: line.id } })),
               value: { percentage: { value: 10 } },
             },

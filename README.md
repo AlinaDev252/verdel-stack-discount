@@ -4,7 +4,7 @@ A Shopify Function that gives 10% off when a shopper buys two or more different 
 
 ## The rule
 
-The cart gets the discount when it holds at least two different products tagged `formula`, bought one-time. Then every one-time formula line gets 10% off, shown as "Stack discount".
+The cart gets the discount when it holds at least two different products tagged `formula`, bought one-time. Then every one-time formula line gets 10% off, shown as "Bundle discount".
 
 No discount when:
 
@@ -37,4 +37,4 @@ Node 22.15 or newer.
 npm run deploy
 ```
 
-Then install the app on the store and create an automatic discount that uses the "Stack discount" function.
+Then install the app on the store and create an automatic discount that uses the "Bundle discount" function.

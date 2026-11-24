@@ -42,7 +42,7 @@
           "productDiscountsAdd": {
             "candidates": [
               {
-                "message": "Stack discount",
+                "message": "Bundle discount",
                 "targets": [
                   {
                     "cartLine": {
