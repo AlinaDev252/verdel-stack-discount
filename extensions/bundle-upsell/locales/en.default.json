@@ -1,0 +1,7 @@
+{
+  "name": "Bundle offer",
+  "heading": "Add a second formula, save {{amount}}",
+  "terms": "10% off both, one-time orders only",
+  "add": "Add",
+  "error": "We couldn't add {{title}}. Try again."
+}

@@ -1,0 +1,14 @@
+api_version = "2026-10"
+
+[[extensions]]
+name = "t:name"
+handle = "bundle-upsell"
+type = "ui_extension"
+uid = "451bd5b4-208a-71d1-9866-d21ff627a29de91602f6"
+
+[[extensions.targeting]]
+module = "./src/Checkout.jsx"
+target = "purchase.checkout.cart-line-list.render-after"
+
+[extensions.capabilities]
+api_access = true

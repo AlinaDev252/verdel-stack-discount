@@ -12,7 +12,7 @@
     "info": "shopify app info",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
-    "test": "npm test --workspace extensions/stack-discount -- --run"
+    "test": "npm test --workspace extensions/stack-discount -- --run && npm test --workspace extensions/bundle-upsell"
   },
   "author": "alinagoiea",
   "private": true,

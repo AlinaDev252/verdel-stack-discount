@@ -33,3 +33,5 @@ dist
 *.njsproj
 *.sln
 *.sw?
+# Build output
+extensions/*/manifest.json
