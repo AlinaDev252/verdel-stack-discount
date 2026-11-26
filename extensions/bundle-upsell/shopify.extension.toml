@@ -1,7 +1,7 @@
 api_version = "2026-10"
 
 [[extensions]]
-name = "t:name"
+name = "Bundle offer"
 handle = "bundle-upsell"
 type = "ui_extension"
 uid = "451bd5b4-208a-71d1-9866-d21ff627a29de91602f6"
